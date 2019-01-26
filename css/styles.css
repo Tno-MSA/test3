@@ -74,9 +74,14 @@ p {
 
 
 /* Title Section */
-#title .container-fluid{
-  padding-top: 3%;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 
@@ -135,7 +140,7 @@ p {
 
 .press-logo{
   width: 15%;
-  margin: 20px 2px 50px;
+  margin: 20px 20px 50px;
 }
 
 
@@ -170,13 +175,14 @@ p {
 }
 
 
-@@media (max-width: 1028px) {
-  #title{
+@media (max-width: 1028px) {
+
+  #title {
     text-align: center;
   }
 
-  .title-image{
+  .title-image {
     position: static;
-    transition: rotate(0deg);
+    transform: rotate(0);
   }
 }
